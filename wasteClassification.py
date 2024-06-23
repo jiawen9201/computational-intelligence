@@ -58,7 +58,7 @@ class WasteClassification(Tk):
 
     # open image file
     def openImageFile(self):
-        self.filename = filedialog.askopenfilename(initialdir='./images', title='Select an image for manipulation')
+        self.filename = filedialog.askopenfilename(initialdir='./images', title='Select an image for waste classification')
         self.raw_img = cv.imread(self.filename)
         self.img = self.raw_img.copy()
         self.predict_func(self.img)
