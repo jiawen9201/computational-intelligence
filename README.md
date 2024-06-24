@@ -7,5 +7,7 @@ USER MANUAL FOR PROJECT IMPLEMENTATION
 5. After downloading the VGGNet model, **place the model inside the folder of the Python interface script folder** downloaded and extracted/cloned previously.
 6. To **run** the waste classification application, open the Visual Studio Code and go to “File” tab, click “Open Folder” and then select the folder of the Python interface script.
 7. Click the wasteClassification.py script and run it.
+
    **Make sure tensorflow, numpy, opencv-python, pillow and matplotlib libraries are installed on the computer.**
+
    If they are not installed, use command **“pip install provided-library-name”** in the command prompt to install the libraries.
